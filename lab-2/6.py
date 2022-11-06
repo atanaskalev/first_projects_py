@@ -1,20 +1,6 @@
-a = 27101022
-c = ""
-while a > 0:
-    reminder = a % 16
-    if reminder == 10:
-        c += 'A'
-    if reminder == 11:
-        c += 'B'
-    if reminder == 12:
-        c += 'C'
-    if reminder == 13:
-        c += 'D'
-    if reminder == 14:
-        c += 'E'
-    if reminder == 15:
-        c += 'F'
-    else:
-     c += str(reminder)
-    a //= 16
-print(c[::-1])
+a = float(input("a="))
+b = float(input("b="))
+h = float(input("h="))
+S = (((a + b) * h) / 2)
+S = float(round(S,2))
+print(S)
