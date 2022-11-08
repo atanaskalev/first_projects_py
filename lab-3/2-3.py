@@ -1,6 +1,13 @@
-a = int(input("a="))
-for i in range(10):
-    result = a * (i + 1)
-    print(f"{a} * {i + 1} = {a * (i + 1)}")
 
+num_count = int(input("How many numbers: "))
+max_num = 0
+i = 1
+while i < num_count:
+    num = int(input(f"Enter number: "))
 
+    if num > max_num:
+        max_num = num
+
+    i += 1
+
+print(f"Max number: {max_num}")
