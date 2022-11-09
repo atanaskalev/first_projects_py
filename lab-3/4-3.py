@@ -1,3 +1,9 @@
-n = [1, 2, 3, 4, 5]
-a = sum(n)
-print("Sum is: ", a)
+n = int(input("Broi chisla: "))
+a = 1
+suma = 0
+while a <= n:
+    b = int(input(f"Vuvedete chislo {a}: "))
+    a += 1
+    suma += b
+
+print(suma)

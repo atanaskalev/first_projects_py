@@ -1,4 +1,3 @@
-
 a = list(input("a="))
 position = input("position=")
 b = ""
