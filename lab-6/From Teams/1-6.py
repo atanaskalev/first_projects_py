@@ -48,13 +48,13 @@ class Bus(Vehicle):
 vehicle = []
 
 
-BMW = Vehicle("BMW", "E90", 3.5, 250.0, 169961.5, 4)
+BMW = Car("BMW", "E90", 3.5, 250.0, 169961.5, 4, "sedan", "gasoline")
 Kawasaki = Motorbike("Kawasaki", "Ninja", 1.0, 330.0, 29123.3, 2, 65000.2, False)
 VW = Car("VW", "Golf MK3", 1.9, 320.0, 568874.6, 4, "hatchback", "diesel")
 Setra = Bus("Setra", "S 519 HD", 10.7, 120.0, 999999.9, 63, "Valeros", 2015)
-Audi = Vehicle("Audi", "A3", 2.0, 210.0, 160061.5, 4)
+Audi = Car("Audi", "A3", 2.0, 210.0, 160061.5, 4, "hatchback", "gasoline")
 Yamaha = Motorbike("Yamaha", "R6", 0.6, 230.0, 3512623, 2, 30000.9, False)
-Mazda = Vehicle("Mazda", "3", 1.6, 150.0, 369961.5, 4)
+Mazda = Car("Mazda", "3", 1.6, 150.0, 369961.5, 4, "hatchback", "LPG")
 Opel = Car("Opel", "Astra H", 1.9, 350.0, 68874.6, 4, "hatchback", "diesel")
 Honda = Motorbike("Honda", "CBR 125", 0.125, 130.0, 20153.6, 2, 6000.7, False)
 Mercedes = Car("Mercedes-Benz", "C 63 AMG", 6.3, 340.0, 28874.6, 4, "coupe", "diesel")
