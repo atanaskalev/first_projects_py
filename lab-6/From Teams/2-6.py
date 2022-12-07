@@ -58,7 +58,7 @@ class Duck(Animal):
 
     def eat_food(self, amount, eat_quantity=random.randint(1, 9)):
         if amount >= eat_quantity:
-            print(self.make_sound())
+            self.make_sound()
             return amount - eat_quantity
         else:
             return 0
