@@ -1,7 +1,4 @@
-from sum import summation
-from sub import subtraction
-from mult import multiplication
-from div import division
+from Calculator import summation, subtraction, multiplication, division
 
 action = input("Enter action: ")
 a = float(input("Enter number 1: "))
